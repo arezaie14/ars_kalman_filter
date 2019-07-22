@@ -52,5 +52,5 @@ int main(){
 }
 ```
 
-if any questions please ask :)
+If any questions please ask :)
 arezaie14@gmail.com
