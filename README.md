@@ -8,10 +8,10 @@ https://github.com/denyssene/SimpleKalmanFilter.git
 
 ### How To use:
 
-1- init your kalman with kalman function like:
-kalman(4,4,0.016);
-2- use kalman_update() to filter your data
-
+```
+1- init your kalman with kalman function like: kalman(4,4,0.016);
+2- use kalman_update(your_data_to_filter_in_float) to filter your data
+```
 ### sample program:
 ```
 //....
