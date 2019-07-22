@@ -43,7 +43,7 @@ int main(){
   while(true){
     
     your_data_to_filter=read_adc(0);  
-    //this is an example function like reading analog value with microcontroller or other function you want ...
+    // this is an example function like reading analog value with microcontroller or other function you want ...
     
     kalman_out=kalman_update(your_data_to_filter);
     // now kalman filter result is in kalman_out variable, you can use it :).
