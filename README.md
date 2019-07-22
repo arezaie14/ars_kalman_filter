@@ -13,7 +13,7 @@ https://github.com/denyssene/SimpleKalmanFilter.git
 2- use kalman_update(your_data_to_filter_in_float) to filter your data
 ```
 
-### Kalman function parametres:
+### kalman(e_mea,e_est,q) function parametres:
 
 ```
 e_mea: Measurement Uncertainty - How much do we expect to our measurement vary
@@ -25,7 +25,7 @@ q:     Process Variance - usually a small number between 0.001 and 1 - how fast 
        Recommended 0.01. Should be tunned to your needs.
 ```
 
-### kalman_update function parametres:
+### kalman_update(mea) function parametres:
 
 ```
 mea: the data you want to filter
