@@ -33,9 +33,8 @@ mea: the data you want to filter
 
 ### Sample program:
 ```
-//....
-//your functions and variables
-//....
+#include "kalman.h"
+
 int main(){
   float kalman_out;
   float your_data_to_filter=0;
